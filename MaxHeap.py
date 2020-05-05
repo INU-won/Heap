@@ -62,7 +62,7 @@ class Heap:
         return True
 
     # 데이터 삭제
-    def delete(self):
+    def delete_free(self):
         if len(self.heap_list) <= 1:
             return None
 
