@@ -2,6 +2,7 @@
 class Heap:
     def __init__(self, num):
         self.heap_list = list()
+<<<<<<< HEAD
         self.heap_list.append(None) # root node의 인덱스를 1로 하기 위함
         self.heap_list.append(num)
 
@@ -96,3 +97,4 @@ class Heap:
                         switch_index = right_child_index
 
         return pop_num
+
