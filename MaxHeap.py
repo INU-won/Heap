@@ -96,6 +96,3 @@ class Heap:
                         switch_index = right_child_index
 
         return pop_num
-
-    def sayhello():
-        print('say hello')
